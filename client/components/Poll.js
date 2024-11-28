@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 import Link from "next/link";
 
-const socket = io("http://localhost:8000")
+const socket = io("https://pollswift-backend.onrender.com")
 
 export const Poll = ()=> {
 
